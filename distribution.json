@@ -12,7 +12,7 @@
       "name": "창현 (Minecraft 1.20.1)",
       "description": "changhyun Running Minecraft 1.20.1 (Fabric v0.15.11)",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "34.64.247.149",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -146,6 +146,16 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3979,
+            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "CookieRun.zip",
           "name": "CookieRun.zip",
           "type": "File",
@@ -165,6 +175,26 @@
             "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/resourcepacks/resource.zip",
             "MD5": "d07735dba03104b9cef3bc9ee871e5c7",
             "path": "resourcepacks/resource.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 170,
+            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "servers.dat_old",
+          "name": "servers.dat_old",
+          "type": "File",
+          "artifact": {
+            "size": 99,
+            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/servers.dat_old",
+            "path": "servers.dat_old"
           }
         }
       ]
