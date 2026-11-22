@@ -1,13 +1,13 @@
 {
     "version":  "1.0.0",
-    "rss":  "\u003cLINK TO RSS FEED\u003e",
+    "rss":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/news.json",
     "servers":  [
                     {
                         "id":  "chungketmon-1.21.1",
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1122.1808",
+                        "version":  "2026.1122.1826",
                         "address":  "114.200.237.145",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
