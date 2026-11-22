@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1122.1826",
+                        "version":  "2026.1123.0016",
                         "address":  "114.200.237.145",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -356,13 +356,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:55d83d91@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:e5a411c4@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  23273498,
-                                                             "MD5":  "55d83d91aa9f27f094850c9da8b87fa8",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-55d83d91.jar"
+                                                             "size":  23273956,
+                                                             "MD5":  "e5a411c4bb4d5a3e03c990dd7429a290",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-e5a411c4.jar"
                                                          }
                                         },
                                         {
