@@ -1,203 +1,902 @@
 {
-  "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
-  "servers": [
-    {
-      "id": "changhyun-1.20.1",
-      "name": "창현 (Minecraft 1.20.1)",
-      "description": "changhyun Running Minecraft 1.20.1 (Fabric v0.15.11)",
-      "icon": null,
-      "version": "1.0.1",
-      "address": "34.64.247.149",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": true,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.15.11",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1327691,
-            "MD5": "b49fcf1bafc14bcda2472a0f060ebe41",
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.1-fabric-0.15.11",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "d5d28bc4462a8e4dcfdc570e74b17136",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/versions/1.20.1-fabric-0.15.11/1.20.1-fabric-0.15.11.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 123598,
-                "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72194,
-                "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51935,
-                "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91131,
-                "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.13.3+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1458875,
-                "MD5": "9dcf01250f72212bf97f0fef55ba5acd",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.1",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.92.2+1.20.1@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2107289,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/fabricmods/required/fabric-api-0.92.2+1.20.1.jar",
-            "MD5": "92c58961866741106aae126558c9d4a7"
-          }
-        },
-        {
-          "id": "com.hyfata.najoan:koreanpatch:1.3.1-1.20.1@jar",
-          "name": "Korean Patch",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 39387,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/fabricmods/required/koreanpatch-1.3.1-1.20.1.jar",
-            "MD5": "6fdcbf1aadc8dcdf9d5673269417dc4c"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.19@jar",
-          "name": "Simple Voice Chat",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 8064361,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.19.jar",
-            "MD5": "8e3db9e113b55555d2c0d237906c0edf"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 3979,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/options.txt",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "CookieRun.zip",
-          "name": "CookieRun.zip",
-          "type": "File",
-          "artifact": {
-            "size": 581395,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/resourcepacks/CookieRun.zip",
-            "MD5": "91bea4da290045b86552e1be34f61070",
-            "path": "resourcepacks/CookieRun.zip"
-          }
-        },
-        {
-          "id": "resource.zip",
-          "name": "resource.zip",
-          "type": "File",
-          "artifact": {
-            "size": 5111906,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/resourcepacks/resource.zip",
-            "MD5": "d07735dba03104b9cef3bc9ee871e5c7",
-            "path": "resourcepacks/resource.zip"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 170,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/servers.dat",
-            "path": "servers.dat"
-          }
-        },
-        {
-          "id": "servers.dat_old",
-          "name": "servers.dat_old",
-          "type": "File",
-          "artifact": {
-            "size": 99,
-            "url": "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/changhyun-1.20.1/files/servers.dat_old",
-            "path": "servers.dat_old"
-          }
-        }
-      ]
-    }
-  ]
+    "version":  "1.0.0",
+    "rss":  "\u003cLINK TO RSS FEED\u003e",
+    "servers":  [
+                    {
+                        "id":  "chungketmon-1.21.1",
+                        "name":  "청켓몬 서버 (Minecraft 1.21.1)",
+                        "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
+                        "icon":  null,
+                        "version":  "2026.1122.1808",
+                        "address":  "114.200.237.145",
+                        "minecraftVersion":  "1.21.1",
+                        "mainServer":  true,
+                        "autoconnect":  true,
+                        "modules":  [
+                                        {
+                                            "id":  "net.fabricmc:fabric-loader:0.20.1",
+                                            "name":  "Fabric (fabric-loader)",
+                                            "type":  "Fabric",
+                                            "artifact":  {
+                                                             "size":  1988880,
+                                                             "MD5":  "2e3dc8eebfde75fc8078c931090cd46f",
+                                                             "url":  "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar"
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "1.21.1-fabric-0.20.1",
+                                                                   "name":  "Fabric (version.json)",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  2922,
+                                                                                    "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/versions/1.21.1-fabric-0.20.1/1.21.1-fabric-0.20.1.json",
+                                                                                    "MD5":  "ea60dff73366c06b79927bf7fa64ad2e"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm:9.10.1",
+                                                                   "name":  "Fabric (asm)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  126151,
+                                                                                    "MD5":  "9cb72080438acf27f2607002e1444a7b",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-analysis:9.10.1",
+                                                                   "name":  "Fabric (asm-analysis)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  35140,
+                                                                                    "MD5":  "6dd9011ec87f65e4b2e14e938c4118e4",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-commons:9.10.1",
+                                                                   "name":  "Fabric (asm-commons)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  74840,
+                                                                                    "MD5":  "8eee0b1bdd046baf472eb83dd5e6bb44",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-tree:9.10.1",
+                                                                   "name":  "Fabric (asm-tree)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  51958,
+                                                                                    "MD5":  "62541e1dc62331408ef31317555bf4fa",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-util:9.10.1",
+                                                                   "name":  "Fabric (asm-util)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  95628,
+                                                                                    "MD5":  "d0892ecb209867805e7d2418e5dc6c42",
+                                                                                    "url":  "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7",
+                                                                   "name":  "Fabric (sponge-mixin)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  1551593,
+                                                                                    "MD5":  "5fd69fb11801c52d88a854ffe05eb839",
+                                                                                    "url":  "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:intermediary:1.21.1",
+                                                                   "name":  "Fabric (intermediary)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  657725,
+                                                                                    "MD5":  "850be48a3406b9efdf8e64b1c2db97f8",
+                                                                                    "url":  "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                                                                                }
+                                                               }
+                                                           ]
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:accessories-fabric-1.1.0-beta.54+1.21.1:6dc66c76@jar",
+                                            "name":  "accessories-fabric-1.1.0-beta.54+1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1103673,
+                                                             "MD5":  "6dc66c76438b7f1715fe4260abb463b0",
+                                                             "url":  "https://cdn.modrinth.com/data/jtmvUHXj/versions/YZ9RWTNl/accessories-fabric-1.1.0-beta.54%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:architectury-13.0.12-fabric:18266a7d@jar",
+                                            "name":  "architectury-13.0.12-fabric.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  600949,
+                                                             "MD5":  "18266a7d285cf37bc0a78f1f9c043d85",
+                                                             "url":  "https://cdn.modrinth.com/data/lhGA9TYQ/versions/WklfM1A0/architectury-13.0.12-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:Cobblemon-fabric-1.8.4+1.21.1:71737248@jar",
+                                            "name":  "Cobblemon-fabric-1.8.4+1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  139966403,
+                                                             "MD5":  "717372480c2254cddc8b5a031ec4e7fa",
+                                                             "url":  "https://cdn.modrinth.com/data/MdwFAVRL/versions/PdOzYHKU/Cobblemon-fabric-1.8.4%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:entityculling-fabric-1.12.1-mc1.21.1:53331705@jar",
+                                            "name":  "entityculling-fabric-1.12.1-mc1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1533262,
+                                                             "MD5":  "53331705d5f2f5e70389a130baf91890",
+                                                             "url":  "https://cdn.modrinth.com/data/NNAgCjsB/versions/ePsqkPkO/entityculling-fabric-1.12.1-mc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:fabric-api-0.116.18+1.21.1:229074b1@jar",
+                                            "name":  "fabric-api-0.116.18+1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2453884,
+                                                             "MD5":  "229074b196b63a366ba2a12a19150f8c",
+                                                             "url":  "https://cdn.modrinth.com/data/P7dR8mSH/versions/5SwzqWUu/fabric-api-0.116.18%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:fabric-language-kotlin-1.14.2+kotlin.2.4.21:08b201c7@jar",
+                                            "name":  "fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  8142878,
+                                                             "MD5":  "08b201c7d0e80ba7a3d77cca0b2d3d3f",
+                                                             "url":  "https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:ferritecore-7.0.3-fabric:b8513c8c@jar",
+                                            "name":  "ferritecore-7.0.3-fabric.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  123450,
+                                                             "MD5":  "b8513c8c3eef01ea1117ed8d8cba060d",
+                                                             "url":  "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric:eba1a7f9@jar",
+                                            "name":  "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  633065,
+                                                             "MD5":  "eba1a7f9d9976e983a2b9eb5e915e087",
+                                                             "url":  "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:ImmediatelyFast-Fabric-1.6.15+1.21.1:66b44206@jar",
+                                            "name":  "ImmediatelyFast-Fabric-1.6.15+1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  342235,
+                                                             "MD5":  "66b44206af5115e07e22804ee414fb02",
+                                                             "url":  "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:jei-1.21.1-fabric-19.64.0.455:5bff9c47@jar",
+                                            "name":  "jei-1.21.1-fabric-19.64.0.455.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2416860,
+                                                             "MD5":  "5bff9c4767778ce11e7b96f9d489d654",
+                                                             "url":  "https://cdn.modrinth.com/data/u6dRKJwZ/versions/f27XokoP/jei-1.21.1-fabric-19.64.0.455.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:lithium-fabric-0.15.4+mc1.21.1:6fd67836@jar",
+                                            "name":  "lithium-fabric-0.15.4+mc1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  797454,
+                                                             "MD5":  "6fd6783640f42130f041b50cca2d3be6",
+                                                             "url":  "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:mega_showdown-fabric-1.4+1.8.4+1.21.1-release:8166d75d@jar",
+                                            "name":  "mega_showdown-fabric-1.4+1.8.4+1.21.1-release.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  20276173,
+                                                             "MD5":  "8166d75d33ab30145463266f611855f7",
+                                                             "url":  "https://cdn.modrinth.com/data/SszvX85I/versions/ZyP6pGGc/mega_showdown-fabric-1.4%2B1.8.4%2B1.21.1-release.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:mezz_config-1.21.1-fabric-0.7.1:e34bb394@jar",
+                                            "name":  "mezz_config-1.21.1-fabric-0.7.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  395153,
+                                                             "MD5":  "e34bb3947b9db711b97aee90889291ee",
+                                                             "url":  "https://cdn.modrinth.com/data/7tEfOcA7/versions/kgMiIa84/mezz_config-1.21.1-fabric-0.7.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:modernfix-fabric-5.25.1+mc1.21.1:17260c89@jar",
+                                            "name":  "modernfix-fabric-5.25.1+mc1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  471258,
+                                                             "MD5":  "17260c894041b7b4a1b1f2fd1a8f1a8b",
+                                                             "url":  "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:modmenu-11.0.5:52ed39a3@jar",
+                                            "name":  "modmenu-11.0.5.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  975846,
+                                                             "MD5":  "52ed39a3015ef3e6b02915d87a8aabae",
+                                                             "url":  "https://cdn.modrinth.com/data/mOgUt4GM/versions/6lgOkclV/modmenu-11.0.5.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:open-parties-and-claims-fabric-1.21.1-0.33.0:d38215cf@jar",
+                                            "name":  "open-parties-and-claims-fabric-1.21.1-0.33.0.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1988229,
+                                                             "MD5":  "d38215cf0834f12c3e3e909276c51643",
+                                                             "url":  "https://cdn.modrinth.com/data/gF3BGWvG/versions/4XHYA7yQ/open-parties-and-claims-fabric-1.21.1-0.33.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:owo-lib-0.12.15.4+1.21:3627aee1@jar",
+                                            "name":  "owo-lib-0.12.15.4+1.21.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1183559,
+                                                             "MD5":  "3627aee17111e12a8c66928f5d7a3fba",
+                                                             "url":  "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:placeholder-api-2.4.2+1.21:4de8568a@jar",
+                                            "name":  "placeholder-api-2.4.2+1.21.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  232325,
+                                                             "MD5":  "4de8568a088a276c94168514d625413d",
+                                                             "url":  "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2%2B1.21.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:pokemon_editor-fabric-1.8.0:cce0602d@jar",
+                                            "name":  "pokemon_editor-fabric-1.8.0.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1329725,
+                                                             "MD5":  "cce0602dc8c35e2e794616017472cc82",
+                                                             "url":  "https://cdn.modrinth.com/data/KYLCiWFr/versions/ylWNUDAS/pokemon_editor-fabric-1.8.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:sodium-fabric-0.8.13+mc1.21.1:5d9c08ee@jar",
+                                            "name":  "sodium-fabric-0.8.13+mc1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1574609,
+                                                             "MD5":  "5d9c08eefe9ea23cd5201e93332e3450",
+                                                             "url":  "https://cdn.modrinth.com/data/AANobbMI/versions/SMxNOGZ6/sodium-fabric-0.8.13%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:sophisticatedbackpacks-1.21.1-3.23.4.3.106:ae7046dd@jar",
+                                            "name":  "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  988478,
+                                                             "MD5":  "ae7046dd3850f1ad3a9bd7e954b1cb8a",
+                                                             "url":  "https://cdn.modrinth.com/data/ouNrBQtq/versions/nHhuPdda/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:sophisticatedcore-1.21.1-1.2.9.21.168:0fcc53d8@jar",
+                                            "name":  "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2996065,
+                                                             "MD5":  "0fcc53d829b59aea00440c6bed12c11d",
+                                                             "url":  "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:voicechat-fabric-1.21.1-2.6.22:dccfc2a4@jar",
+                                            "name":  "voicechat-fabric-1.21.1-2.6.22.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  5369475,
+                                                             "MD5":  "dccfc2a487792d2d52ca91d19b9d7f6d",
+                                                             "url":  "https://cdn.modrinth.com/data/9eGKb6K1/versions/VS5X7jZd/voicechat-fabric-1.21.1-2.6.22.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:xaerominimap-fabric-1.21.1-26.6.0:19b4a2fa@jar",
+                                            "name":  "xaerominimap-fabric-1.21.1-26.6.0.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2234556,
+                                                             "MD5":  "19b4a2fa10cf4153c51ff0e1e2c6efe7",
+                                                             "url":  "https://cdn.modrinth.com/data/1bokaNcj/versions/W4dcLcUs/xaerominimap-fabric-1.21.1-26.6.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:xaeroworldmap-fabric-1.21.1-1.47.0:eeee9b64@jar",
+                                            "name":  "xaeroworldmap-fabric-1.21.1-1.47.0.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1456162,
+                                                             "MD5":  "eeee9b64152f38396ff52b6dbcc0f38f",
+                                                             "url":  "https://cdn.modrinth.com/data/NcUtCpym/versions/XIR7GzC3/xaeroworldmap-fabric-1.21.1-1.47.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:55d83d91@jar",
+                                            "name":  "chungketmon-core-1.0.0.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  23273498,
+                                                             "MD5":  "55d83d91aa9f27f094850c9da8b87fa8",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-55d83d91.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "resourcepacks/dCIM 1.0.4.zip",
+                                            "name":  "dCIM 1.0.4.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  12841360,
+                                                             "url":  "https://cdn.modrinth.com/data/fOzKqjMA/versions/oTpUSp6D/dCIM%201.0.4.zip",
+                                                             "MD5":  "353294c92921958608799cb1243abe5a",
+                                                             "path":  "resourcepacks/dCIM 1.0.4.zip"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "options.txt",
+                                            "name":  "options.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  8629,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/options.txt",
+                                                             "path":  "options.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "servers.dat",
+                                            "name":  "servers.dat",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  85,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/servers.dat",
+                                                             "path":  "servers.dat"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/accessories.json5",
+                                            "name":  "accessories.json5",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  919,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/accessories.json5",
+                                                             "path":  "config/accessories.json5"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/entityculling.json",
+                                            "name":  "entityculling.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  2248,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/entityculling.json",
+                                                             "path":  "config/entityculling.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/ferritecore.mixin.properties",
+                                            "name":  "ferritecore.mixin.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1615,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/ferritecore.mixin.properties",
+                                                             "path":  "config/ferritecore.mixin.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/forgeconfigapiport.toml",
+                                            "name":  "forgeconfigapiport.toml",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  523,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/forgeconfigapiport.toml",
+                                                             "path":  "config/forgeconfigapiport.toml"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/immediatelyfast.json",
+                                            "name":  "immediatelyfast.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1114,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/immediatelyfast.json",
+                                                             "path":  "config/immediatelyfast.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/lithium.properties",
+                                            "name":  "lithium.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  267,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/lithium.properties",
+                                                             "path":  "config/lithium.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/modernfix-mixins.properties",
+                                            "name":  "modernfix-mixins.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  4087,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/modernfix-mixins.properties",
+                                                             "path":  "config/modernfix-mixins.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/modmenu.json",
+                                            "name":  "modmenu.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  840,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/modmenu.json",
+                                                             "path":  "config/modmenu.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sodium-fingerprint.json",
+                                            "name":  "sodium-fingerprint.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  427,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sodium-fingerprint.json",
+                                                             "path":  "config/sodium-fingerprint.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sodium-mixins.properties",
+                                            "name":  "sodium-mixins.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  258,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sodium-mixins.properties",
+                                                             "path":  "config/sodium-mixins.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sodium-options.json",
+                                            "name":  "sodium-options.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  761,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sodium-options.json",
+                                                             "path":  "config/sodium-options.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sophisticatedbackpacks-common.toml",
+                                            "name":  "sophisticatedbackpacks-common.toml",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  118,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sophisticatedbackpacks-common.toml",
+                                                             "path":  "config/sophisticatedbackpacks-common.toml"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sophisticatedcore-client.toml",
+                                            "name":  "sophisticatedcore-client.toml",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  347,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sophisticatedcore-client.toml",
+                                                             "path":  "config/sophisticatedcore-client.toml"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/sophisticatedcore-common.toml",
+                                            "name":  "sophisticatedcore-common.toml",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  108,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/sophisticatedcore-common.toml",
+                                                             "path":  "config/sophisticatedcore-common.toml"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/transition.json",
+                                            "name":  "transition.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  97,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/transition.json",
+                                                             "path":  "config/transition.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/trender.json",
+                                            "name":  "trender.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  47,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/trender.json",
+                                                             "path":  "config/trender.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaerohud.txt",
+                                            "name":  "xaerohud.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  122,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaerohud.txt",
+                                                             "path":  "config/xaerohud.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/cobblemon/main.json",
+                                            "name":  "main.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  4128,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/cobblemon/main.json",
+                                                             "path":  "config/cobblemon/main.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/fabric/indigo-renderer.properties",
+                                            "name":  "indigo-renderer.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  290,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/fabric/indigo-renderer.properties",
+                                                             "path":  "config/fabric/indigo-renderer.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/blacklist.json",
+                                            "name":  "blacklist.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  19,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/blacklist.json",
+                                                             "path":  "config/jei/blacklist.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/ingredient-list-mod-sort-order.ini",
+                                            "name":  "ingredient-list-mod-sort-order.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  150,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/ingredient-list-mod-sort-order.ini",
+                                                             "path":  "config/jei/client/ingredient-list-mod-sort-order.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/ingredient-list-type-sort-order.ini",
+                                            "name":  "ingredient-list-type-sort-order.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  111,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/ingredient-list-type-sort-order.ini",
+                                                             "path":  "config/jei/client/ingredient-list-type-sort-order.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/recipe-category-sort-order.ini",
+                                            "name":  "recipe-category-sort-order.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  463,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/recipe-category-sort-order.ini",
+                                                             "path":  "config/jei/client/recipe-category-sort-order.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/default/jei-client.ini",
+                                            "name":  "jei-client.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  16752,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/default/jei-client.ini",
+                                                             "path":  "config/jei/client/default/jei-client.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/default/jei-colors.ini",
+                                            "name":  "jei-colors.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1655,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/default/jei-colors.ini",
+                                                             "path":  "config/jei/client/default/jei-colors.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/default/jei-debug.ini",
+                                            "name":  "jei-debug.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1174,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/default/jei-debug.ini",
+                                                             "path":  "config/jei/client/default/jei-debug.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/jei/client/default/jei-mod-id-format.ini",
+                                            "name":  "jei-mod-id-format.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  863,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/jei/client/default/jei-mod-id-format.ini",
+                                                             "path":  "config/jei/client/default/jei-mod-id-format.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/mega_showdown/config.json",
+                                            "name":  "config.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  571,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/mega_showdown/config.json",
+                                                             "path":  "config/mega_showdown/config.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/mezz_config/client/default/settings.ini",
+                                            "name":  "settings.ini",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1452,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/mezz_config/client/default/settings.ini",
+                                                             "path":  "config/mezz_config/client/default/settings.ini"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/pokemon-editor/data-editor/manifest.json",
+                                            "name":  "manifest.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  144,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/pokemon-editor/data-editor/manifest.json",
+                                                             "path":  "config/pokemon-editor/data-editor/manifest.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/voicechat/category-volumes.properties",
+                                            "name":  "category-volumes.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  46,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/voicechat/category-volumes.properties",
+                                                             "path":  "config/voicechat/category-volumes.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/voicechat/player-volumes.properties",
+                                            "name":  "player-volumes.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  44,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/voicechat/player-volumes.properties",
+                                                             "path":  "config/voicechat/player-volumes.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/voicechat/translations.properties",
+                                            "name":  "translations.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1182,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/voicechat/translations.properties",
+                                                             "path":  "config/voicechat/translations.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/voicechat/voicechat-client.properties",
+                                            "name":  "voicechat-client.properties",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  5183,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/voicechat/voicechat-client.properties",
+                                                             "path":  "config/voicechat/voicechat-client.properties"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/lib/client.cfg",
+                                            "name":  "client.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  26,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/lib/client.cfg",
+                                                             "path":  "config/xaero/lib/client.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/lib/common.cfg",
+                                            "name":  "common.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  236,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/lib/common.cfg",
+                                                             "path":  "config/xaero/lib/common.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/lib/profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  121,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/lib/profiles/default.cfg",
+                                                             "path":  "config/xaero/lib/profiles/default.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/lib/server_profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  75,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/lib/server_profiles/default.cfg",
+                                                             "path":  "config/xaero/lib/server_profiles/default.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/client.cfg",
+                                            "name":  "client.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  235,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/client.cfg",
+                                                             "path":  "config/xaero/minimap/client.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/common.cfg",
+                                            "name":  "common.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  147,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/common.cfg",
+                                                             "path":  "config/xaero/minimap/common.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/default_radar_categories_client.json",
+                                            "name":  "default_radar_categories_client.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  5531,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/default_radar_categories_client.json",
+                                                             "path":  "config/xaero/minimap/default_radar_categories_client.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/default_radar_categories_server.json",
+                                            "name":  "default_radar_categories_server.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  4597,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/default_radar_categories_server.json",
+                                                             "path":  "config/xaero/minimap/default_radar_categories_server.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  3921,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/profiles/default.cfg",
+                                                             "path":  "config/xaero/minimap/profiles/default.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+                                            "name":  "default.cfg.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  6223,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json",
+                                                             "path":  "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+                                            "name":  "default.cfg.txt",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  684,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+                                                             "path":  "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/minimap/server_profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  75,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/minimap/server_profiles/default.cfg",
+                                                             "path":  "config/xaero/minimap/server_profiles/default.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/world-map/client.cfg",
+                                            "name":  "client.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  521,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/world-map/client.cfg",
+                                                             "path":  "config/xaero/world-map/client.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/world-map/common.cfg",
+                                            "name":  "common.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  141,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/world-map/common.cfg",
+                                                             "path":  "config/xaero/world-map/common.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/world-map/profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1619,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/world-map/profiles/default.cfg",
+                                                             "path":  "config/xaero/world-map/profiles/default.cfg"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "config/xaero/world-map/server_profiles/default.cfg",
+                                            "name":  "default.cfg",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  75,
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/xaero/world-map/server_profiles/default.cfg",
+                                                             "path":  "config/xaero/world-map/server_profiles/default.cfg"
+                                                         }
+                                        }
+                                    ]
+                    }
+                ]
 }
