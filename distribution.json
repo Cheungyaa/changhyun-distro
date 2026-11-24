@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1125.0517",
+                        "version":  "2026.1125.0529",
                         "address":  "xn--z52b724awwb.xn--hu5b25b77nvwc.xn--3e0b707e",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -126,6 +126,16 @@
                                                          }
                                         },
                                         {
+                                            "id":  "chungketmon.mods:asteorbar-fabric-1.21.1-1.5.3:27eb82da@jar",
+                                            "name":  "asteorbar-fabric-1.21.1-1.5.3.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1121037,
+                                                             "MD5":  "27eb82da8c5ea0955bdf1010fa268079",
+                                                             "url":  "https://cdn.modrinth.com/data/QMWG8bVO/versions/GDDl7P0K/asteorbar-fabric-1.21.1-1.5.3.jar"
+                                                         }
+                                        },
+                                        {
                                             "id":  "chungketmon.mods:athena-fabric-1.21.1-4.0.6:a549af3b@jar",
                                             "name":  "athena-fabric-1.21.1-4.0.6.jar",
                                             "type":  "FabricMod",
@@ -163,6 +173,16 @@
                                                              "size":  95905,
                                                              "MD5":  "85de5ef83ffa833a5cfd8fc9d0527478",
                                                              "url":  "https://cdn.modrinth.com/data/e6TGyomk/versions/fKZS05he/cobblemon-highlight-fabric-1.1.0.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:CobblemonMoveDex-1.2:dd989f3a@jar",
+                                            "name":  "CobblemonMoveDex-1.2.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  51113,
+                                                             "MD5":  "dd989f3af5d7fe3cd95aeae54f44059e",
+                                                             "url":  "https://cdn.modrinth.com/data/tWd2nw8o/versions/P6scgczb/CobblemonMoveDex-1.2.jar"
                                                          }
                                         },
                                         {
@@ -223,6 +243,16 @@
                                                              "size":  342235,
                                                              "MD5":  "66b44206af5115e07e22804ee414fb02",
                                                              "url":  "https://cdn.modrinth.com/data/5ZwdcRci/versions/aLnBqxFW/ImmediatelyFast-Fabric-1.6.15%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:iris-fabric-1.8.14-beta.1+mc1.21.1:4399f0c3@jar",
+                                            "name":  "iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2791343,
+                                                             "MD5":  "4399f0c3edfe2af7f61db3725fe5c751",
+                                                             "url":  "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar"
                                                          }
                                         },
                                         {
@@ -436,13 +466,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:a4ab4318@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:6ac6cd91@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  44000492,
-                                                             "MD5":  "a4ab43187251169720a8d0f5870124d5",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-a4ab4318.jar"
+                                                             "size":  44004217,
+                                                             "MD5":  "6ac6cd917ee852aa2c3318ca5a1ed76a",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-6ac6cd91.jar"
                                                          }
                                         },
                                         {
@@ -454,6 +484,17 @@
                                                              "url":  "https://cdn.modrinth.com/data/fOzKqjMA/versions/oTpUSp6D/dCIM%201.0.4.zip",
                                                              "MD5":  "353294c92921958608799cb1243abe5a",
                                                              "path":  "resourcepacks/dCIM 1.0.4.zip"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "shaderpacks/ComplementaryUnbound_r5.10.zip",
+                                            "name":  "ComplementaryUnbound_r5.10.zip",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  567391,
+                                                             "url":  "https://cdn.modrinth.com/data/R6NEzAwj/versions/QJiYQisE/ComplementaryUnbound_r5.10.zip",
+                                                             "MD5":  "ab987ef018ca5bb5cf096bd6d09a5e06",
+                                                             "path":  "shaderpacks/ComplementaryUnbound_r5.10.zip"
                                                          }
                                         },
                                         {
