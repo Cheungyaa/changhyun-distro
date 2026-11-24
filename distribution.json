@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1124.1743",
+                        "version":  "2026.1124.1748",
                         "address":  "114.200.237.145",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -253,6 +253,16 @@
                                                              "size":  797454,
                                                              "MD5":  "6fd6783640f42130f041b50cca2d3be6",
                                                              "url":  "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:lithostitched-1.8.1-fabric-21.1:3fcf64fa@jar",
+                                            "name":  "lithostitched-1.8.1-fabric-21.1.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1015426,
+                                                             "MD5":  "3fcf64fa63cafec2f4a6549db480c678",
+                                                             "url":  "https://cdn.modrinth.com/data/XaDC71GB/versions/GZFp8lnS/lithostitched-1.8.1-fabric-21.1.jar"
                                                          }
                                         },
                                         {
