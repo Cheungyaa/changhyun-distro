@@ -7,8 +7,8 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1124.1748",
-                        "address":  "114.200.237.145",
+                        "version":  "2026.1125.0108",
+                        "address":  "34.64.39.175",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
                         "autoconnect":  true,
@@ -426,13 +426,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:70b7e894@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:5f0e546b@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  43898427,
-                                                             "MD5":  "70b7e894804af9e771be6c1d9741f4dc",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-70b7e894.jar"
+                                                             "size":  43898832,
+                                                             "MD5":  "5f0e546b71c426b7da962f6d875bda01",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-5f0e546b.jar"
                                                          }
                                         },
                                         {
