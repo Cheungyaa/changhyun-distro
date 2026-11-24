@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1124.1147",
+                        "version":  "2026.1124.1743",
                         "address":  "114.200.237.145",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -126,6 +126,26 @@
                                                          }
                                         },
                                         {
+                                            "id":  "chungketmon.mods:athena-fabric-1.21.1-4.0.6:a549af3b@jar",
+                                            "name":  "athena-fabric-1.21.1-4.0.6.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  88425,
+                                                             "MD5":  "a549af3b3a32722ab81ff11d9f44f90b",
+                                                             "url":  "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:chipped-fabric-1.21.1-4.0.2:c98271e7@jar",
+                                            "name":  "chipped-fabric-1.21.1-4.0.2.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  15016830,
+                                                             "MD5":  "c98271e7ba961e78e4a589fc53fa71a2",
+                                                             "url":  "https://cdn.modrinth.com/data/BAscRYKm/versions/6h2mVZcb/chipped-fabric-1.21.1-4.0.2.jar"
+                                                         }
+                                        },
+                                        {
                                             "id":  "chungketmon.mods:Cobblemon-fabric-1.8.4+1.21.1:71737248@jar",
                                             "name":  "Cobblemon-fabric-1.8.4+1.21.1.jar",
                                             "type":  "FabricMod",
@@ -213,6 +233,16 @@
                                                              "size":  2023375,
                                                              "MD5":  "fc7e8b48d98bc94025ea70c1ed441b2f",
                                                              "url":  "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "chungketmon.mods:legendarymonuments-fabric-1.21.1-8.2-Keep-Fighting:3b13cec8@jar",
+                                            "name":  "legendarymonuments-fabric-1.21.1-8.2-Keep-Fighting.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  16931202,
+                                                             "MD5":  "3b13cec85adb6c66dd7059c2688d61c8",
+                                                             "url":  "https://cdn.modrinth.com/data/m6RyHSbV/versions/dcZ53MPy/legendarymonuments-fabric-1.21.1-8.2-Keep-Fighting.jar"
                                                          }
                                         },
                                         {
@@ -316,6 +346,16 @@
                                                          }
                                         },
                                         {
+                                            "id":  "chungketmon.mods:resourcefullib-fabric-1.21-3.0.12:89dac424@jar",
+                                            "name":  "resourcefullib-fabric-1.21-3.0.12.jar",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  485586,
+                                                             "MD5":  "89dac4248b76747800fbc00fa063825e",
+                                                             "url":  "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar"
+                                                         }
+                                        },
+                                        {
                                             "id":  "chungketmon.mods:sodium-fabric-0.8.13+mc1.21.1:5d9c08ee@jar",
                                             "name":  "sodium-fabric-0.8.13+mc1.21.1.jar",
                                             "type":  "FabricMod",
@@ -376,13 +416,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:64640d5b@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:70b7e894@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  43872107,
-                                                             "MD5":  "64640d5bf224dcef0f4c54a997d36414",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-64640d5b.jar"
+                                                             "size":  43898427,
+                                                             "MD5":  "70b7e894804af9e771be6c1d9741f4dc",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-70b7e894.jar"
                                                          }
                                         },
                                         {
