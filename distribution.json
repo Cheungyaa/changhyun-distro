@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1126.1114",
+                        "version":  "2026.1126.1121",
                         "address":  "xn--z52b724awwb.xn--hu5b25b77nvwc.xn--3e0b707e",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -476,13 +476,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:ffbc4966@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:f8e79722@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  81165051,
-                                                             "MD5":  "ffbc4966efa5917decedfec07968db91",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-ffbc4966.jar"
+                                                             "size":  81171442,
+                                                             "MD5":  "f8e79722648fbf4607e525f8866b317c",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-f8e79722.jar"
                                                          }
                                         },
                                         {
@@ -873,7 +873,7 @@
                                             "name":  "voicechat-client.properties",
                                             "type":  "File",
                                             "artifact":  {
-                                                             "size":  5183,
+                                                             "size":  5181,
                                                              "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/files/config/voicechat/voicechat-client.properties",
                                                              "path":  "config/voicechat/voicechat-client.properties"
                                                          }
