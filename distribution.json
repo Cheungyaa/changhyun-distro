@@ -7,7 +7,7 @@
                         "name":  "청켓몬 서버 (Minecraft 1.21.1)",
                         "description":  "Cobblemon 1.8.4 · Fabric 0.20.1",
                         "icon":  null,
-                        "version":  "2026.1126.0907",
+                        "version":  "2026.1126.1114",
                         "address":  "xn--z52b724awwb.xn--hu5b25b77nvwc.xn--3e0b707e",
                         "minecraftVersion":  "1.21.1",
                         "mainServer":  true,
@@ -30,7 +30,7 @@
                                                                    "artifact":  {
                                                                                     "size":  2922,
                                                                                     "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/repo/versions/1.21.1-fabric-0.20.1/1.21.1-fabric-0.20.1.json",
-                                                                                    "MD5":  "f02ba45ee288f9f29911102a23797843"
+                                                                                    "MD5":  "49ea79efb1b7e60629fd886591cd5e76"
                                                                                 }
                                                                },
                                                                {
@@ -476,13 +476,13 @@
                                                          }
                                         },
                                         {
-                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:e2dbe787@jar",
+                                            "id":  "chungketmon.mods:chungketmon-core-1.0.0:ffbc4966@jar",
                                             "name":  "chungketmon-core-1.0.0.jar",
                                             "type":  "FabricMod",
                                             "artifact":  {
-                                                             "size":  81163720,
-                                                             "MD5":  "e2dbe7877be516f34e5c55906174baa6",
-                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-e2dbe787.jar"
+                                                             "size":  81165051,
+                                                             "MD5":  "ffbc4966efa5917decedfec07968db91",
+                                                             "url":  "https://raw.githubusercontent.com/Cheungyaa/changhyun-distro/main/servers/chungketmon-1.21.1/mods/chungketmon-core-1.0.0-ffbc4966.jar"
                                                          }
                                         },
                                         {
